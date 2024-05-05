@@ -25,7 +25,7 @@ func (rc *RC4) Init(key string) {
 		rc.s[i] = uint8(i)
 	}
 
-	keyLength := len(key)
+	keyLength := len([]rune(key))
 	for i := 0; i < 255; i++ {
 		tmp1 = key[i%keyLength]
 		tmp2 = rc.j + rc.s[i] + tmp1
