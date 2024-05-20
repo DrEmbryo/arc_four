@@ -1,4 +1,5 @@
 # ARCFOUR Encryption with Go
+## About this project
 This personal project aims to delve into the ARCFOUR (also known as RC4) encryption algorithm, focusing on its implementation and usage using the Go programming language. ARCFOUR is a symmetric stream cipher that has been widely used in various applications due to its simplicity and speed.
 
 **Objectives**
